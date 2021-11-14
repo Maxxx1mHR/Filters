@@ -1,0 +1,34 @@
+c:\users\warrior\documents\visual studio 2010\Projects\WarriorGraphicMaster\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.exe
+c:\users\warrior\documents\visual studio 2010\Projects\WarriorGraphicMaster\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.pdb
+c:\users\warrior\documents\visual studio 2010\Projects\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csprojResolveAssemblyReference.cache
+c:\users\warrior\documents\visual studio 2010\Projects\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Form1.resources
+c:\users\warrior\documents\visual studio 2010\Projects\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Properties.Resources.resources
+c:\users\warrior\documents\visual studio 2010\Projects\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csproj.GenerateResource.Cache
+c:\users\warrior\documents\visual studio 2010\Projects\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.exe
+c:\users\warrior\documents\visual studio 2010\Projects\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.pdb
+F:\VISUAL STUDIO PROJECTS\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.exe
+F:\VISUAL STUDIO PROJECTS\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.pdb
+\\Vboxsvr\новая_папка\For Max\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.exe
+\\Vboxsvr\новая_папка\For Max\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.pdb
+\\Vboxsvr\новая_папка\For Max\WarriorGraphicMaster\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.exe
+\\Vboxsvr\новая_папка\For Max\WarriorGraphicMaster\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.pdb
+\\Vboxsvr\новая_папка\For Max\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csprojResolveAssemblyReference.cache
+\\Vboxsvr\новая_папка\For Max\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Form1.resources
+\\Vboxsvr\новая_папка\For Max\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Properties.Resources.resources
+\\Vboxsvr\новая_папка\For Max\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csproj.GenerateResource.Cache
+C:\Users\1\Desktop\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.exe
+C:\Users\1\Desktop\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.pdb
+C:\Users\1\Desktop\WarriorGraphicMaster\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.exe
+C:\Users\1\Desktop\WarriorGraphicMaster\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.pdb
+C:\Users\1\Desktop\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Form1.resources
+C:\Users\1\Desktop\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Properties.Resources.resources
+C:\Users\1\Desktop\WarriorGraphicMaster\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csproj.GenerateResource.Cache
+C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.exe
+C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.pdb
+C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.exe
+C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.pdb
+C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Form1.resources
+C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Properties.Resources.resources
+C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csproj.GenerateResource.Cache
