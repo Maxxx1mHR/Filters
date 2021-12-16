@@ -32,3 +32,11 @@ C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\Warrior
 C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Form1.resources
 C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Properties.Resources.resources
 C:\Users\1\Desktop\Чернобаев\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csproj.GenerateResource.Cache
+\\Vboxsvr\новая_папка\Чернобаев\Filters\LaboratoryWork\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.exe
+\\Vboxsvr\новая_папка\Чернобаев\Filters\LaboratoryWork\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.pdb
+\\Vboxsvr\новая_папка\Чернобаев\Filters\LaboratoryWork\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.exe
+\\Vboxsvr\новая_папка\Чернобаев\Filters\LaboratoryWork\WarriorGraphicMaster\bin\Debug\WarriorGraphicMaster.pdb
+\\Vboxsvr\новая_папка\Чернобаев\Filters\LaboratoryWork\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csprojResolveAssemblyReference.cache
+\\Vboxsvr\новая_папка\Чернобаев\Filters\LaboratoryWork\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Form1.resources
+\\Vboxsvr\новая_папка\Чернобаев\Filters\LaboratoryWork\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.Properties.Resources.resources
+\\Vboxsvr\новая_папка\Чернобаев\Filters\LaboratoryWork\WarriorGraphicMaster\obj\x86\Debug\WarriorGraphicMaster.csproj.GenerateResource.Cache

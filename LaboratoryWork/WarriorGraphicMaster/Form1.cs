@@ -19,13 +19,7 @@ namespace WarriorGraphicMaster
         Color rgb;
         int b;
         int c;
-        double k;
-        bool NF = true;
-        bool UN = false;
-        bool LN = false;
-        string[] W = new string[11];
-        string[] P = { "0", "15", "30", "45", "60", "75", "90", "105", "120", "135", "150", "165",
-                         "180", "195", "210", "225", "240", "255"};
+
         #endregion
 
         public Form1()
@@ -48,11 +42,16 @@ namespace WarriorGraphicMaster
             }
 
         }
+
+
+
+        //Изменение яркости изображения
         private void buttonBright_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 640; i++)
+            b=Convert.ToInt32(numericUpDown1.Value);
+            for(int i=0; i<640; i++)
             {
-                for (int j = 0; j < 480; j++)
+                for(int j=0; j<480;j++)
                 {
                     V[i, j, 0] = (int)PicArray[i, j, 0] + b;
                     if (V[i, j, 0] > 255)
@@ -63,7 +62,7 @@ namespace WarriorGraphicMaster
                     {
                         V[i, j, 0] = 0;
                     }
-                    V[i, j, 1] = (int)PicArray[i, j, 1] + b;
+                    V[i,j,1]=(int)PicArray[i,j,1]+b;
                     if (V[i, j, 1] > 255)
                     {
                         V[i, j, 1] = 255;
@@ -72,7 +71,7 @@ namespace WarriorGraphicMaster
                     {
                         V[i, j, 1] = 0;
                     }
-                    V[i, j, 2] = (int)PicArray[i, j, 2] + b;
+                    V[i,j,2]=(int)PicArray[i,j,2]+b;
                     if (V[i, j, 2] > 255)
                     {
                         V[i, j, 2] = 255;
@@ -85,14 +84,14 @@ namespace WarriorGraphicMaster
                 }
             }
             pictureBox.Refresh();
-             
+       
         }
 
 
         //Реализация фильтра негатив
         private void buttonNegative_Click(object sender, EventArgs e)
         {
-            if (NF == true)
+            //if (NF == true)
             {
                 for (int i = 0; i < 640; i++)
                 {
@@ -106,42 +105,6 @@ namespace WarriorGraphicMaster
                 }
                 pictureBox.Refresh();
             }
-            if (UN == true)
-            {
-                
-                for (int i = 0; i < 640; i++)
-                {
-                    for (int j = 0; j < 480; j++)
-                    {
-                        if ((int)((PicArray[i, j, 0] + PicArray[i, j, 1] + PicArray[i, j, 2]) / 3) > c)
-                        {
-                            V[i, j, 0] = (int)(255 - PicArray[i, j, 0]);
-                            V[i, j, 1] = (int)(255 - PicArray[i, j, 1]);
-                            V[i, j, 2] = (int)(255 - PicArray[i, j, 2]);
-                            (pictureBox.Image as Bitmap).SetPixel(i, j, Color.FromArgb(255, (byte)V[i, j, 0], (byte)V[i, j, 1], (byte)V[i, j, 2]));
-                        }
-                    }
-                }
-                pictureBox.Refresh();
-            }
-            if (LN == true)
-            {
-                for (int i = 0; i < 640; i++)
-                {
-                    for (int j = 0; j < 480; j++)
-                    {
-                        if ((int)((PicArray[i, j, 0] + PicArray[i, j, 1] + PicArray[i, j, 2]) / 3) < c)
-                        {
-                            V[i, j, 0] = (int)(255 - PicArray[i, j, 0]);
-                            V[i, j, 1] = (int)(255 - PicArray[i, j, 1]);
-                            V[i, j, 2] = (int)(255 - PicArray[i, j, 2]);
-                            (pictureBox.Image as Bitmap).SetPixel(i, j, Color.FromArgb(255, (byte)V[i, j, 0], (byte)V[i, j, 1], (byte)V[i, j, 2]));
-                        }
-                    }
-                }
-                pictureBox.Refresh();
-            }
-
         }
 
 
@@ -181,7 +144,63 @@ namespace WarriorGraphicMaster
 
         }
 
+        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
+        {
 
+        }
+
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //Частичный срез яркости. 
+        private void buttonCutBright_Click(object sender, EventArgs e)
+        {
+            c = Convert.ToInt32(numericUpDown2.Value);
+            if(radioButton1.Checked)
+            {
+                GetText(radioButton1);
+                for (int i = 0; i < 640; i++)
+                {
+                    for (int j = 0; j < 480; j++)
+                    {
+                        if ((int)((PicArray[i, j, 0] + PicArray[i, j, 1] + PicArray[i, j, 2]) / 3) > c)
+                        {
+                            (pictureBox.Image as Bitmap).SetPixel(i, j, Color.FromArgb(255, 255, 255, 255));
+                        }
+                    }
+                }
+                pictureBox.Refresh();
+            }
+            else
+            {
+                GetText(radioButton2);
+                for (int i = 0; i < 640; i++)
+                {
+                    for (int j = 0; j < 480; j++)
+                    {
+                        if ((int)((PicArray[i, j, 0] + PicArray[i, j, 1] + PicArray[i, j, 2]) / 3) < c)
+                        {
+                            (pictureBox.Image as Bitmap).SetPixel(i, j, Color.FromArgb(255, 0, 0, 0));
+                        }
+                    }
+                }
+                pictureBox.Refresh();
+            }
+           
+        }
+
+        //Просто сообщение при срабатывании радио-кнопки. 
+        private void GetText(RadioButton rdoButton)
+        {
+            if (rdoButton.Checked)
+            {
+                MessageBox.Show(rdoButton.Text);
+            }
+        }
 
 
     }
